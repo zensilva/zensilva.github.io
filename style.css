@@ -1,0 +1,144 @@
+/* Reset styles */
+
+/* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  } */
+  /* Body styles */
+  body {
+  background-color: #000;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    color: whitesmoke;
+  background-color: #3a3a3a;
+  padding: 20px;
+  text-align: center;
+  }
+  
+  .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  }
+  
+  h1 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 36px;
+  margin-bottom: 10px;
+  }
+  
+  p {
+  margin-bottom: 10px;
+  }
+  
+  ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  }
+  
+  li {
+  margin-right: 20px;
+  }
+  
+  a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  }
+  
+  a:hover {
+  border-bottom: 2px solid #fff;
+  }
+  
+  /* Image styles */
+  .image-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  }
+  
+  .image {
+  width: 50%;
+  height: auto;
+  margin-right: 20px;
+  }
+  
+  /* Main styles */
+  main {
+  padding: 20px;
+  }
+  
+  h2 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 24px;
+  margin-bottom: 10px;
+  }
+  
+  /* Background styles */
+  #home {
+  background-color: #ffaf87;
+  padding: 50px;
+  }
+  
+  #Background {
+  background-color: #ffc0cb;
+  padding: 50px;
+  }
+  
+  #MyTube {
+  background-color: #add8e6;
+  padding: 50px;
+  }
+  
+  #contact {
+  background-color: #98fb98;
+  padding: 50px;
+  }
+  
+  /* Button styles */
+  .btn {
+  display: inline-block;
+  background-color: #f7d68e;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+  background-color: #ffd700;
+  cursor: pointer;
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Footer styles */
+  footer {
+  background-color: #333;
+  color: #fff;
+padding: 20px;
+text-align: center;
+}
+
+footer a {
+color: #ffd700;
+text-decoration: none;
+}
+
+footer a:hover {
+text-decoration: underline;
+}
